@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+20&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 27, 27);
+    font-family: "Jersey 20", sans-serif;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.tudo {
+    position: absolute;
+    width: 100%;
+}
+
+
+.imagem {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.imagem img {
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.texto {
+    margin: 30px auto;
+    width: 100%;
+}
+
+.texto p {
+    font-size: 24px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.opcoes {
+    margin: 35px auto;
+    text-align: center;
+    width: 100%;
+}
+
+.escolha {
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px;
+    background-color: rgb(43, 85, 43);
+    font-size: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    min-width: 220px;
+    margin: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.escolha:hover {
+    background-color: rgb(20, 206, 20);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+h1 {
+    font-size: 48px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto 40px auto;
+    animation: typing 4.5s steps(40, end);
+    width: fit-content;
+    border-right: 3px solid white;
+    padding-right: 5px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}

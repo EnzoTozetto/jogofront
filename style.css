@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+20&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 27, 27);
+    font-family: "Jersey 20", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+
+h1{
+    font-size: 48px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 40px auto;
+    animation: typing 4.5s steps(40, end);
+    
+}
+
+@keyframes typing{
+    from {width: 0;}
+    to {width: 100%;}
+}
+
+img{
+    margin: auto;
+    height: 650px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.botao{
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.opcao {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(43, 85, 43);
+    font-size: 24px;
+    animation: piscar-cor 2s infinite;
+    border-radius: 10px;
+}
+
+.opcao:hover {
+    background-color: red;
+    animation: none; 
+}
+
+@keyframes piscar-cor {
+    0% { background-color: rgb(43, 85, 43); }
+    50% { background-color: rgb(20, 206, 20); }
+    100% { background-color: rgb(19, 59, 25); }}
